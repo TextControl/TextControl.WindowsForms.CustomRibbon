@@ -32,7 +32,7 @@ namespace tx_customized_ribbon
             ribbonReportingTab1.DataSourceManager.PossibleMergeFieldColumnsChanged += 
                 DataSourceManager_PossibleMergeFieldColumnsChanged;
 
-            //MaskDataColumnNames(joData);
+            MaskDataColumnNames(joData);
         }
 
         private void DataSourceManager_PossibleMergeFieldColumnsChanged(object sender, EventArgs e)
